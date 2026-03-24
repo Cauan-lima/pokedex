@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-   
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
     <link rel="stylesheet" href="style.css">
-
-    
 </head>
+
 <body>
-        <div class=logo>
-            <h1>POKEDÉX</h1>
-            <img src="" alt="">
-        </div>
+
+    <!-- 🔥 HEADER NOVO -->
+    <header class="header">
+        <h1>POKEDÉX</h1>
+
+        <!-- 🔍 CAMPO DE BUSCA -->
+        <input 
+            type="text" 
+            id="search" 
+            placeholder="Buscar Pokémon..."
+        >
+    </header>
 
     <div class="pokeContainer" id="pokeContainer">
         <div class="pokemon">
 
             <div class="imgContainer">
-
                 <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="nome">
-
             </div>
 
             <div class="infos">
                 <span class="number">#1</span>
                 <h3 class="name">Bubassauro</h3>
-                <small class="type">Type: <span>Planta</span> </small>
+                <small class="type">Type: <span>Planta</span></small>
             </div>
+
         </div>
-        
     </div>
+
     <script src="app.js"></script>
 </body>
 </html>
